@@ -13,7 +13,7 @@ void MergeChunkstoFstream(string file_1, string file_2, fstream &fout);
 
 void quickSort(string *a, int left, int right);
 
-int SplitAndSort(fstream &inputFile, int SizeofFile);
+int SplitAndSort(string inputFilename, int SizeofFile);
 
 int innitnumberofFiles(int size);
 
